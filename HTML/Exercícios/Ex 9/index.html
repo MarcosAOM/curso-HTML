@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Listas</title>
+        <style>
+            body{
+                background-color: bisque;
+            }
+        </style>
+        <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    </head>
+    <body>
+        <h1>Trabalhando com listas</h1>
+        <h2>Listas ordenadas</h2>
+        <ol>
+            <li>Acordar
+            <li>Tomar banho
+            <li>Tomar café
+            <li>Escovar os dentes
+            <li>Ir pra faculdade</li>
+            <li>Al'mossar</li>
+            <li>Academia</li>
+            <li>Jantar</li>
+            <li>Estudar</li>
+            <li>Jogar</li>
+            <li>Dormir</li>
+        </ol>
+        <p>usando as tags &lt;ol&gt; e &lt;li&gt;</p>
+        <p>É possível modifcar o tipo de variável entre números comuns, letras e números romanos adicionando type na tag ol. EX:</p>
+        <ol type="I"> <!--1, A, a, I, i-->
+            <li>Acordar
+            <li>Tomar banho
+            <li>Tomar café
+            <li>Escovar os dentes
+            <li>Ir pra faculdade</li>
+            <li>Al'mossar</li>
+            <li>Academia</li>
+            <li>Jantar</li>
+            <li>Estudar</li>
+            <li>Jogar</li>
+            <li>Dormir</li>
+        </ol>
+        <p>Também é possível começar a lista de outro índice. EX:</p>
+        <ol start="7"> <!--é possível combinar tipo e índice-->
+            <li>Acordar
+            <li>Tomar banho
+            <li>Tomar café
+            <li>Escovar os dentes
+            <li>Ir pra faculdade</li>
+            <li>Al'mossar</li>
+            <li>Academia</li>
+            <li>Jantar</li>
+            <li>Estudar</li>
+            <li>Jogar</li>
+            <li>Dormir</li>
+        </ol>
+        <h2>Listas não ordenadas</h2>
+        <ul>
+            <li>Pão</li>
+            <li>Requeijão</li>
+            <li>Maçã</li>
+            <li>Cebola</li>
+            <li>Arroz</li>
+            <li>Tomate</li>
+            <li>Leite</li>
+            <li>Café</li>
+        </ul>
+        <p>sando a tag &lt;ul&gt;</p>
+        <p>Também é possível trocar o desenho da lista entre um círculo vazio e um quadrado. EX:</p>
+        <ul type="square"> <!--disc, circle, square-->
+            <li>Pão</li>
+            <li>Requeijão</li>
+            <li>Maçã</li>
+            <li>Cebola</li>
+            <li>Arroz</li>
+            <li>Tomate</li>
+            <li>Leite</li>
+            <li>Café</li>
+        </ul>
+        <h2>Listas mistas</h2>
+        <h3>1.0 Juntando listas</h3>
+        <h4>Minhas linguagens favoritas</h4>
+            <ol>
+                <li>Antigas</li>
+                    <ol>
+                        <li>Clipper</li>
+                        <li>Visual Basic</li>
+                        <li>Delphi</li>
+                        <li>Fortran</li>
+                    </ol>
+                <li>Novas</li>
+                    <ol start="5">
+                        <li>PHP</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Kotlin</li>
+                    </ol>
+            </ol>
+        <h4>Meus games favoritos</h4>
+            <ol>
+                <li>NES</li>
+                    <ul type="disc">
+                        <li>Mario Bros</li>
+                            <ul>
+                                <li>Mario Bros 3</li>
+                                <li>Mario: Lost Levels</li>
+                            </ul>
+                        <li>Ninja Gaiden</li>
+                    </ul>
+                <li>SNES</li>
+                    <ul type="disc">
+                        <li>Mario</li>
+                        <li>Donkey Kong</li>
+                    </ul>
+                <li>PlayStation</li>
+                    <ul type="disc">
+                        <li>Final Fantasy</li>
+                        <li>Castlevania</li>
+                    </ul>
+            </ol>
+        <h2>Lista de definições</h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>- linguagem de marcação para a criação do conteúdo de um site</dd>
+                <dt>CSS</dt>
+                <dd>- linguagem de marcação para a criação do design de um site</dd>
+                <dt>JavaScript</dt>
+                <dd>- linguagem de programção para a criação de interatividade de um site</dd>
+            </dl>
+    </body>
+</html>
